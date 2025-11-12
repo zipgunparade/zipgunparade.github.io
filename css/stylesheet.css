@@ -76,10 +76,16 @@ body {
 			
 /* Modifies text segments listed */			
 
-		p, h2, h1, figcaption, h3 {
+		p, h2, h1, h3 {
 			text-align: center;
 			color: #000;
 			line-height: 1.8;
+		}
+		figcaption {
+			text-align: center;
+			color: #000;
+			font-size: .5em;
+			line-height: .5;
 		}
 
 /*div intro p only modifies the paragraph on the intro page div class intro and all p elements*/
