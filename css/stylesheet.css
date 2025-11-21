@@ -172,7 +172,7 @@ body {
 		figcaption {
 			text-align: center;
 			color: #000;
-			font-size: .3em;
+			font-size: .5em;
 			padding: 5px;
 		}
 
@@ -425,7 +425,7 @@ main p {
 	}
 	
 figcaption {
-	font-size: .6em;
+	font-size: .7em;
 	padding: 5px;
 	}	
 	
@@ -579,7 +579,7 @@ main p {
 	}
 	
 figcaption {
-	font-size: .5em;
+	font-size: .7em;
 	}	
 	
  p.backbutt, th {
