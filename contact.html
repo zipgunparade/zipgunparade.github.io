@@ -42,18 +42,20 @@
 		
 	<main>
 		<div id="contactform">		
-			<form class="form-grid"><!-- Start Form-->
+			<form class="form-grid" action="https://api.web3forms.com/submit" method="POST"><!-- Start Form-->
 							<fieldset>
 								<legend><h2>LET'S GET IN TOUCH:</h2></legend>
-								<input type="text" name="fName" id="fName" placeholder="First Name">
+								<input type="hidden" name="access_key" value="e2648d34-67d8-402e-a9e6-d795d428d0ad">
+								
+								<input type="text" name="First Name" id="fName" placeholder="First Name" required>
 
-								<input type="text" name="lName" id="lName" placeholder="Last Name">
+								<input type="text" name="Last Name" id="lName" placeholder="Last Name" required>
 
-								<input type="email" name="email" id="email" placeholder="E-mail Address: you@domain.com">
+								<input type="email" name="E-mail" id="email" placeholder="E-mail Address: you@domain.com" required>
 
-								<input type="tel" id="phone" name="phone" placeholder="Phone Number (123) 456-7890">
+								<input type="tel" id="phone" name="Phone Number" placeholder="Phone Number (123) 456-7890">
 
-								<input type="text" id="textarea" name="textarea" placeholder="How may I help you?"> 
+								<input type="text" id="textarea" name="Message" placeholder="How may I help you?" required> 
 							</fieldset>
 
 							<input type="submit" id="submit" value="Submit" class="btn">
